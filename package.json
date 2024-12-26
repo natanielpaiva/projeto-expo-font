@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "expo": "~52.0.23",
+    "expo-app-loading": "^2.1.1",
     "expo-camera": "^16.0.10",
     "expo-font": "^13.0.2",
     "expo-location": "^18.0.4",
