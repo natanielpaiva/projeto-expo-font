@@ -5,7 +5,7 @@ import AppLoading from 'expo-app-loading';
 
 const App = () => {
     const [fontsLoaded] = useFonts({
-        'CustomFont': require('./assets/fonts/stocky.ttf'),
+        'CustomFont': require('./assets/fonts/myfont.ttf'),
     });
 
     if (!fontsLoaded) {
@@ -15,7 +15,7 @@ const App = () => {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>
-                Olá, mundo com fonte personalizada!
+                Me siga no @natanieltech
             </Text>
         </View>
     );
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     },
     text: {
         fontFamily: 'CustomFont',
-        fontSize: 24, // Aumenta o tamanho da fonte
+        fontSize: 60, // Aumenta o tamanho da fonte
         color: '#333', // Define uma cor para o texto
     },
 });
